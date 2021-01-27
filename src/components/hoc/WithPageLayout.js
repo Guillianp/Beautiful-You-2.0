@@ -1,4 +1,4 @@
-import React from 'https://cdn.skypack.dev/react';
+import React from 'react';
 import Shipping from '../partials/shipping/Shipping';
 import NavBar from '../partials/navbar/Navbar';
 import Footer from "../partials/footer/Footer";
