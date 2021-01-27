@@ -1,5 +1,6 @@
 import React from "react";
 import withLayout from "../../hoc/WithPageLayout";
+import './Contact.css';
 
 export class Contact extends React.Component {
     render() {
