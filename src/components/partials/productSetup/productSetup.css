@@ -1,0 +1,4 @@
+.wrapper {
+  margin-top: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+}

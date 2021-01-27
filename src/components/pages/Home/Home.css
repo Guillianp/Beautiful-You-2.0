@@ -1,0 +1,196 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin-top: 80px;
+}
+
+.about {
+  background-image: url(https://pbs.twimg.com/media/Ejth_r_XcAEAuoI?format=jpg&name=large);
+  max-width: 100%;
+  min-height: 750px;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+.about h2 {
+  margin-left: 80px;
+  font-size: 4em;
+  text-transform: uppercase;
+  position: relative;
+  padding-top: 50px;
+}
+.purple {
+  color: purple;
+  text-shadow: 2px 1px white;
+}
+.about p {
+  font-size: 20px;
+  margin-left: 80px;
+  text-shadow: 2px 1px white;
+}
+.products {
+  margin: auto;
+  background-image: url(https://pbs.twimg.com/media/Ejt3C15X0AAlpL_?format=jpg&name=large);
+  min-width: 100%;
+  min-height: 750px;
+}
+
+.products div {
+  position: relative;
+  min-width: 90%;
+  margin: auto;
+  top: 58px;
+  text-align: center;
+}
+
+.products h3 {
+  text-align: center;
+  font-size: 8em;
+  text-transform: uppercase;
+  position: relative;
+  top: 200px;
+  padding-bottom: 30px;
+  color: #854ea2;
+}
+
+.productsPage {
+  background-color: #854ea2;
+  border: none;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  height: 40px;
+}
+
+.productsPage a {
+  text-decoration: none;
+  color: white;
+}
+
+.discount-section {
+  background-color: #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.discount {
+  margin-left: 5%;
+}
+.email-list {
+  margin-top: 200px;
+  margin-right: 10%;
+}
+.email-list h2 {
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+.email {
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  visibility: visible;
+  height: 30px;
+  font-size: 20px;
+  width: 450px;
+}
+
+label {
+  margin: 0;
+  font-size: 0px;
+}
+form .submit {
+  background-color: #854ea2;
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 6px;
+  width: 100px;
+}
+form .submit:hover {
+  background-color: #d6e8eb;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1000px) {
+  .wrapper {
+    margin-top: 150px;
+  }
+  .about {
+    width: 1200px;
+  }
+
+  .about h1 {
+    font-size: 2em;
+    width: 100%;
+  }
+  section {
+    flex-direction: column;
+  }
+  .about,
+  .products,
+  .discount-section {
+    max-width: 1200px;
+    width: auto;
+  }
+  .discount-section {
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .discount {
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .wrapper,
+  .topmenu {
+    min-width: 320px;
+  }
+  .wrapper {
+    margin-top: 100px;
+  }
+  section {
+    flex-direction: column;
+  }
+  .about {
+    max-width: 800px;
+  }
+  .discount-section {
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    flex-direction: column;
+  }
+  .discount {
+    margin-left: 0;
+  }
+  .email-list {
+    margin-top: 10px;
+    float: right;
+    margin-right: 0%;
+    margin-bottom: 30px;
+  }
+  .discount-section img {
+    min-height: 500px;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+}
