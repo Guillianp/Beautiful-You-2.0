@@ -1,5 +1,7 @@
 import React from "react";
 import withLayout from "../../hoc/WithPageLayout";
+import './Home.css'
+import girlGroup from '../../../img/pexels-anna-shvets-4672553.jpg';
 
 class Home extends React.Component {
     render() {
@@ -18,7 +20,7 @@ class Home extends React.Component {
                 </section>
 
                 <section className="discount-section">
-                    <img className ="discount" src="images/pexels-anna-shvets-4672553.jpg" alt="group of 3 girls"/>
+                    <img className ="discount" src={girlGroup} alt="group of 3 girls"/>
                     <div className="email-list">
                         <h2>WANT 15% OFF?</h2>
                         <p>Sign up for our email list and recieve 15% off your first order.</p>

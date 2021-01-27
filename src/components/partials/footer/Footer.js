@@ -1,10 +1,12 @@
 import React from 'react';
+import './Footer.css'
+import logo from '../../../img/be-you.png';
 
 const Footer = () => (
     <footer className='footer-container'>
         <div class="footer-container">
                 <div class="left-col">
-                    <img src="images/be-you.png" alt="Beautiful You Logo" class="logo"/>
+                    <img src={logo} alt="Beautiful You Logo" class="logo"/>
                     <div class="social-media">
                         <a href="https://www.instagram.com" target="_blank" rel="noopener"><i title="Instagram" class="fab fa-instagram"></i></a>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener"><i title="Facebook" class="fab fa-facebook"></i></a>

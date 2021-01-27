@@ -1,13 +1,14 @@
 import {React, Component} from 'react';
 import { NavLink}  from 'react-router-dom'
 import './Navbar.css';
+import logo from '../../../img/BE.png';
 
 class Navbar extends Component{
     render(){
         return(
             <header>
                 <div className="menu-logo">
-                    <img src="img/BE.png" alt="Beautiful You logo"/>
+                    <img src={logo} alt="Beautiful You logo"/>
                 </div>
                 <nav clasName="topmenu">
                     <ul className="nav">
