@@ -1,17 +1,27 @@
 import React from 'react';
+import "./productSetup.css";
 
 const productSetup = ({products,}) => {
 
     const Products = () => products.map(item => (
-        <div className="wrapper">
-                <img src={item.imageURL} alt={item.title} className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">{item.title}</h2>
-            <p className="text-lg leading-6 font-medium text-gray-900">{item.price}</p>
-            <p className="text-base text-gray-500">{item.description}</p>
+        
+            <div className="Products">
+                <div className="Setup">
+                <img src={item.image} alt={item.name} />
+            <h3 className="Title">{item.name}</h3>
+            <p className="Prices">{item.price}</p>
+            <p>{item.description}</p>
+            <button className="Button">Buy Now</button>
+            </div>
           </div>
+        
       ))
 
     return(
+        <div className="Wrapper">
         <Products />
+        </div>
     )
 }
+
+export default productSetup;

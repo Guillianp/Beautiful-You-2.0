@@ -1,4 +1,38 @@
-.wrapper {
+.Wrapper {
   margin-top: 80px;
-  grid-template-columns: 1fr 1fr 1fr;
 }
+
+.Products {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.Setup {
+  width: 200px;
+  text-align: center;
+}
+
+.Title {
+  color: #854ea2;
+}
+
+.Prices {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.Button {
+  padding: 10px;
+  width: 150px;
+  border: 1px solid white;
+  background-color: #854ea2;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+/* .Button:hover {
+} */

@@ -1,6 +1,7 @@
 import React from "react";
 import withLayout from "../../hoc/WithPageLayout";
 import './Home.css'
+import { NavLink}  from 'react-router-dom'
 import girlGroup from '../../../img/pexels-anna-shvets-4672553.jpg';
 
 class Home extends React.Component {
@@ -15,7 +16,7 @@ class Home extends React.Component {
                 
                 <section className="products">
                     <h3>See Our Products</h3>
-                    <div><span className="productsPage"><a href="html/products.html">View Our Products</a></span>
+                    <div><span className="productsPage"><NavLink exact={true} to='/products'>View Products</NavLink></span>
                     </div>
                 </section>
 

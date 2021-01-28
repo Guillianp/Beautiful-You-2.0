@@ -1,3 +1,6 @@
+header {
+  background-color: #854ea2;
+}
 .topmenu {
   width: 100%;
   position: relative;
@@ -21,31 +24,31 @@
   font-size: 20px;
 }
 .fa-shopping-cart {
-  color: #854ea2;
+  color: #fff;
 }
 .nav li {
   list-style-type: none;
   padding: 20px;
   text-align: center;
   height: 40px;
-  color: #854ea2;
+  color: #fff;
   padding-bottom: 40px;
 }
 
 .nav li a {
   display: block;
   text-decoration: none;
-  color: #854ea2;
+  color: #fff;
   /* 14px = top and bottom 16px = left and right  */
   padding: 14px 16px;
 }
 
 .nav li:hover {
-  background-color: #854ea2;
+  background-color: #fff;
 }
 
 .nav li a:hover {
-  color: white;
+  color: #854ea2;
   padding-top: 20px;
 }
 
