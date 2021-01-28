@@ -3,7 +3,7 @@
         "name": "Living Proof Volumizing Spray",
         "price": "$29.00",
         "description": "A styling spray that creates instant volume and texture that’s almost as light as air for big, lasting results on dry hair.",
-        "image": "../img/1.png",
+        "image": "public/img/1.png",
         "productType": "Hair Spray",
         "hairType": "1"
       },
