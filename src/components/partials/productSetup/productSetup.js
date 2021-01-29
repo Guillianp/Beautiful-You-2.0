@@ -5,21 +5,20 @@ const productSetup = ({products,}) => {
 
     const Products = () => products.map(item => (
         
-            <div className="Products">
-                <div className="Setup">
+            <div className="productsList">
                 <img src={item.image} alt={item.name} />
-            <h3 className="Title">{item.name}</h3>
-            <p className="Prices">{item.price}</p>
-            <p>{item.description}</p>
-            <button className="Button">Buy Now</button>
-            </div>
-          </div>
-        
+            <h3 className="title">{item.name}</h3>
+            <p className="prices">{item.price}</p>
+            <button className="button">Buy Now</button>
+            <p className= "description" >{item.description}</p>
+            </div>      
       ))
 
     return(
-        <div className="Wrapper">
-        <Products />
+        <div className="wrapper">
+            <div className="grid">
+                <Products />
+            </div>
         </div>
     )
 }

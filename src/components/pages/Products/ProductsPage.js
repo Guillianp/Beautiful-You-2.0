@@ -8,10 +8,9 @@ class ProductsPage extends Component {
     render(){
         return(
             <main>
-                <h1 style={{textAlign: 'center',  color: '#854ea2'}}>Products</h1>
-                <div className="Products">
+                <h1 className="heading">Products</h1>
+                <div className="productsBorder"></div>
                 <ProductSetup products={ProductData}/>
-                </div>
             </main>
         )
     }
