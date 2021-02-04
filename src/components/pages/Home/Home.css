@@ -9,7 +9,7 @@ body {
 } */
 
 .about {
-  max-width: 100%;
+  min-width: 100%;
   min-height: 650px;
   background-repeat: no-repeat;
   margin: 0;
@@ -129,70 +129,60 @@ form .submit:hover {
   cursor: pointer;
 }
 
-@media all and (max-width: 1000px) {
-  .wrapper {
-    margin-top: 150px;
-  }
-  .about {
-    width: 1200px;
+@media all and (max-width: 1025px) and (min-width: 760px) {
+  .about,
+  .products {
+    width: 100%;
+    padding: 0;
   }
 
-  .about h1 {
+  .about h2 {
     font-size: 2em;
-    width: 100%;
+    /* width: 100%; */
   }
-  section {
-    flex-direction: column;
-  }
-  .about,
-  .products,
+
   .discount-section {
-    max-width: 1200px;
-    width: auto;
-  }
-  .discount-section {
-    background-color: #eeeeee;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  .discount {
-    margin-left: 0;
+    display: none;
   }
 }
 
-@media all and (max-width: 800px) {
-  .wrapper,
-  .topmenu {
-    min-width: 320px;
+@media all and (max-width: 480px) {
+  .about,
+  .products {
+    width: 100%;
+    padding: 0;
   }
-  .wrapper {
-    margin-top: 100px;
+
+  .about h2 {
+    margin: 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0;
   }
-  section {
-    flex-direction: column;
+
+  .products {
+    margin: auto;
+    background-image: none;
+    min-width: 100%;
+    min-height: 200px;
   }
-  .about {
-    max-width: 800px;
+
+  .products h3 {
+    display: none;
   }
+
+  .productsPage {
+    position: relative;
+    font-size: 15px;
+  }
+
+  .productsPage a {
+    text-decoration: none;
+    color: white;
+  }
+
   .discount-section {
-    background-color: #eeeeee;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    flex-direction: column;
-  }
-  .discount {
-    margin-left: 0;
-  }
-  .email-list {
-    margin-top: 10px;
-    float: right;
-    margin-right: 0%;
-    margin-bottom: 30px;
-  }
-  .discount-section img {
-    min-height: 500px;
-  }
-  .btn {
-    margin-top: 10px;
+    display: none;
   }
 }

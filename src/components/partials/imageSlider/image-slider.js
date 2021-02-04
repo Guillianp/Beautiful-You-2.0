@@ -49,7 +49,7 @@ class ImageSlider extends Component {
         <Slider {...settings}>
           {photos.map((pic=>{
               return (<div>
-                  <img src={pic.image} alt={pic.alt} width="100%" />
+                  <img src={pic.image} alt={pic.alt} />
               </div>
               )
           }))}

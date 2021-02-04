@@ -111,38 +111,14 @@ form .submit:active {
   transform: translateY(4px);
 }
 
-@media all and (max-width: 1000px) {
-  .wrapper {
-    margin-top: 100px;
-  }
+@media all and (max-width: 1025px) and (min-width: 760px) {
   .footer {
     height: 300px;
     padding: 10px;
   }
-
-  .hero h1 {
-    font-size: 2em;
-    width: 100%;
-  }
-  .footer-container {
-    max-width: 600px;
-  }
-  .right-col {
-    width: 100%;
-    margin-bottom: 60px;
-  }
-  .left-col {
-    width: 100%;
-    text-align: center;
-  }
 }
 
 @media all and (max-width: 800px) {
-  .wrapper,
-  .topmenu {
-    min-width: 320px;
-  }
-
   .nav li {
     padding: 20px;
     height: 10px;
@@ -151,9 +127,6 @@ form .submit:active {
     margin: 0px;
   }
 
-  .wrapper {
-    margin-top: 100px;
-  }
   .about {
     max-width: 300px;
   }

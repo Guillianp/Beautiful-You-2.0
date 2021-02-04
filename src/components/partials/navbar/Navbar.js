@@ -4,7 +4,16 @@ import './Navbar.css';
 import logo from '../../../img/BEAUTIFUL.png';
 
 class Navbar extends Component{
+    
     render(){
+        const toggleMobileMenu=()=> {
+            var x = document.getElementsByClassName("mobileLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
         return(
             <header>
                 <div className="menu-logo">

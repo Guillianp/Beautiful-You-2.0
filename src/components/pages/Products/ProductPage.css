@@ -12,3 +12,14 @@
   height: 4px;
   background: #854ea2;
 }
+
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.type-filter {
+  display: flex;
+}

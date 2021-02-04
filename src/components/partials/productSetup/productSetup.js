@@ -8,7 +8,7 @@ const productSetup = ({products,}) => {
             <div className="productsList">
                 <img src={item.image} alt={item.name} />
             <h3 className="title">{item.name}</h3>
-            <p className="prices">{item.price}</p>
+            <p className="prices">${item.price}</p>
             <button className="button">Buy Now</button>
             <p className= "description" >{item.description}</p>
             </div>      
