@@ -17,6 +17,7 @@ body {
   text-align: center;
   background-color: #fff;
 }
+
 .about h2 {
   margin: 0;
   font-size: 4em;
@@ -184,6 +185,12 @@ form .submit:hover {
   }
 
   .discount-section {
+    display: none;
+  }
+}
+
+@media all and (min-width: 500) {
+  .mobilelogo {
     display: none;
   }
 }

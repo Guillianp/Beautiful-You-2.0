@@ -36,6 +36,11 @@ class Navbar extends Component{
                     <div className="cart">
                     <i title="shopping cart" class="fas fa-shopping-cart fa-2x"></i>
                     </div>
+                    <div className="mobileNav" onClick={this.props.clicked}>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </nav>
             </header>
         )

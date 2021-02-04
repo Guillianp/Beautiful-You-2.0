@@ -5,6 +5,7 @@ import { NavLink}  from 'react-router-dom'
 import girlGroup from '../../../img/pexels-anna-shvets-4672553.jpg';
 import ImageSlider from "../../partials/imageSlider/image-slider";
 
+
 class Home extends React.Component {
     render() {
       return (
