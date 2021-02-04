@@ -10,7 +10,7 @@ body {
 
 .about {
   min-width: 100%;
-  min-height: 650px;
+  height: 650px;
   background-repeat: no-repeat;
   margin: 0;
   padding-top: 10px;
@@ -153,35 +153,35 @@ form .submit:hover {
     width: 100%;
     padding: 0;
   }
-
+  .about {
+    height: 410px;
+    margin-bottom: 10px;
+  }
   .about h2 {
     margin: 0;
     font-size: 2em;
     text-transform: uppercase;
     position: relative;
     padding: 0;
-    text-align: left;
+    text-align: center;
   }
 
   .products {
     margin: auto;
     background-image: none;
     min-width: 100%;
-    min-height: 200px;
+    min-height: 100px;
+    margin-bottom: 20px;
   }
 
   .products h3 {
     display: none;
+    padding-top: z;
   }
 
   .productsPage {
     position: relative;
     font-size: 15px;
-  }
-
-  .productsPage a {
-    text-decoration: none;
-    color: white;
   }
 
   .discount-section {
