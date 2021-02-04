@@ -57,7 +57,7 @@ footer {
   font-weight: 700;
   outline: none;
   border-radius: 30px;
-  max-width: 260px;
+  width: 260px;
 }
 label {
   /* visibility: hidden; */
@@ -94,6 +94,43 @@ label {
   }
   .email-list {
     margin-bottom: 20px;
+  }
+  .footer {
+    height: 350px;
+  }
+  .footer-container {
+    min-width: 600px;
+  }
+  .right-col {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .left-col {
+    width: 100%;
+    text-align: center;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .footer {
+    height: 200px;
+    padding: 0px;
+  }
+  section {
+    flex-direction: column;
+  }
+  .about {
+    max-width: 800px;
+  }
+  .email-list {
+    margin-bottom: 20px;
+  }
+  .foot-email {
+    width: 200px;
   }
   .footer {
     height: 350px;

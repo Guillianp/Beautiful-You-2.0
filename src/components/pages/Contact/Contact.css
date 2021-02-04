@@ -111,46 +111,9 @@ form .submit:active {
   transform: translateY(4px);
 }
 
-@media all and (max-width: 1025px) and (min-width: 760px) {
-  .footer {
-    height: 300px;
-    padding: 10px;
-  }
-}
-
-@media all and (max-width: 800px) {
-  .nav li {
-    padding: 20px;
-    height: 10px;
-  }
-  .cart {
-    margin: 0px;
-  }
-
-  .about {
-    max-width: 300px;
-  }
-  .footer {
-    height: 350px;
-  }
-  .footer-container {
-    max-width: 600px;
-  }
-  .right-col {
-    width: 100%;
-    margin-bottom: 60px;
-  }
-  .left-col {
-    width: 100%;
-    text-align: center;
-  }
-  .btn {
-    margin-top: 10px;
-  }
-  input {
-    visibility: visible;
-    height: 30px;
-    font-size: 20px;
+@media all and (max-width: 480px) {
+  .hero h2 {
+    font-size: 3.5em;
   }
 
   .form-name,
@@ -158,9 +121,6 @@ form .submit:active {
   .message,
   .submit,
   .phone {
-    width: 500px;
-  }
-  .cart {
-    margin-right: 20px;
+    width: 300px;
   }
 }

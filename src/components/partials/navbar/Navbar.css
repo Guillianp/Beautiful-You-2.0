@@ -67,7 +67,7 @@ header {
     color: #fff;
     float: right;
     margin-right: 40px;
-    margin-top: 30px;
+    margin-top: 0px;
   }
 }
 
@@ -83,6 +83,7 @@ header {
     margin-left: 10px;
   }
   .fa-shopping-cart {
+    size: 1em;
     color: #854ea2;
   }
   .nav li {
@@ -94,8 +95,8 @@ header {
     padding-bottom: 40px;
   }
 
-  .nav li a {
-    display: block;
+  .nav li {
+    display: none;
     text-decoration: none;
     color: #fff;
     /* 14px = top and bottom 16px = left and right  */
@@ -112,8 +113,6 @@ header {
   }
 
   .cart {
-    float: right;
-    margin-right: 40px;
-    margin-top: 30px;
+    display: none;
   }
 }

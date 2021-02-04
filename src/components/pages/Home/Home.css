@@ -159,6 +159,7 @@ form .submit:hover {
     text-transform: uppercase;
     position: relative;
     padding: 0;
+    text-align: left;
   }
 
   .products {
