@@ -3,6 +3,7 @@ import withLayout from "../../hoc/WithPageLayout";
 import './Home.css'
 import { NavLink}  from 'react-router-dom'
 import girlGroup from '../../../img/pexels-anna-shvets-4672553.jpg';
+import ImageSlider from "../../partials/imageSlider/image-slider";
 
 class Home extends React.Component {
     render() {
@@ -10,8 +11,9 @@ class Home extends React.Component {
         <div className="wrapper">
             <main>
                 <section className="about">
-                    <h2>Be <span className="purple">Beautiful</span>. Be <span className="purple">You</span></h2>
+                    <h2>Be <span className="purple">Beautiful</span>! Be <span className="purple">You</span>!</h2>
                     <p>Our goal is to help you embrace yourself by finding products that help you love your hair.</p>
+                    <ImageSlider></ImageSlider>
                 </section>
                 
                 <section className="products">

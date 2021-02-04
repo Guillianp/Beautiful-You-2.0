@@ -3,7 +3,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.wrapper {
+  margin-top: 0;
+}
 .hero {
   background-image: url(https://pbs.twimg.com/media/EjwmlaAWsAECv7X?format=jpg&name=large);
   height: 400px;
@@ -53,7 +55,7 @@ body {
   background-color: white;
   border: 1px solid black;
   outline: none;
-  color: black;
+  color: #854ea2;
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
 }
@@ -72,12 +74,22 @@ input {
   height: 30px;
   font-size: 20px;
 }
+input:focus {
+  outline: none;
+  background-color: #ccc;
+}
+input:invalid,
+textarea:invalid {
+  border: 2px solid #854ea2;
+}
+
 textarea {
   visibility: visible;
   font-size: 20px;
   margin-top: 0;
   margin-bottom: 0;
 }
+
 label {
   /* visibility: hidden; */
   margin: 0;

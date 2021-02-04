@@ -9,26 +9,28 @@ body {
 } */
 
 .about {
-  background-image: url(https://pbs.twimg.com/media/Ejth_r_XcAEAuoI?format=jpg&name=large);
   max-width: 100%;
-  min-height: 750px;
+  min-height: 650px;
   background-repeat: no-repeat;
-  padding-top: 20px;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #fff;
 }
 .about h2 {
-  margin-left: 80px;
+  margin: 0;
   font-size: 4em;
   text-transform: uppercase;
   position: relative;
-  padding-top: 50px;
+  padding: 0;
 }
 .purple {
-  color: purple;
+  color: #854ea2;
   text-shadow: 2px 1px white;
 }
 .about p {
   font-size: 20px;
-  margin-left: 80px;
+  margin-bottom: 10px;
   text-shadow: 2px 1px white;
 }
 .products {

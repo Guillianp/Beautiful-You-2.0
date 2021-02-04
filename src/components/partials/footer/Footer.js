@@ -21,7 +21,8 @@ const Footer = () => (
                       <form class="foot-discount">
                           <label>
                               Email
-                          <input name="email" type="email" class="foot-email" placeholder="Enter Your Email"/>
+                          <input name="email" type="email" class="foot-email"
+                          required placeholder="Enter Your Email"/>
                           </label><br/>
                           <input type="submit" class="btn" value="submit"/>
                       </form>
