@@ -94,7 +94,7 @@ class Contact extends React.Component {
                         </label><br/>
                         <input type="submit" className="form-control submit" value="Submit" />
                     </form>
-                    </div>
+                    </div> 
                 </section>
             </main>
         </div>
