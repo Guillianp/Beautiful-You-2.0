@@ -2,7 +2,6 @@ import React from "react";
 import withLayout from "../../hoc/WithPageLayout";
 import './Home.css'
 import { NavLink}  from 'react-router-dom'
-import girlGroup from '../../../img/pexels-anna-shvets-4672553.jpg';
 import ImageSlider from "../../partials/imageSlider/image-slider";
 
 
@@ -12,18 +11,18 @@ class Home extends React.Component {
         <div className="wrapper">
             <main>
                 <section className="about">
-                    <h2>Be <span className="purple">Beautiful</span>! Be <span className="purple">You</span>!</h2>
-                    <p>Our goal is to help you embrace yourself by finding products that help you love your hair.</p>
+                    {/* {/* <h2>Be <span className="purple">Beautiful</span>! Be <span className="purple">You</span>!</h2> */}
+                    <p>Life is an art. Make it your masterpiece.</p>
                     <ImageSlider></ImageSlider>
                 </section>
                 
                 <section className="products">
-                    <h3>See Our Products</h3>
-                    <div><span className="productsPage"><NavLink exact={true} to='/products'>View Products</NavLink></span>
+                    <h3>All the tools you need to become the master of your life.</h3>
+                    <div><span className="productsPage"><NavLink exact={true} to='/products'>SHOP</NavLink></span>
                     </div>
                 </section>
 
-                <section className="discount-section">
+                {/* <section className="discount-section">
                     <img className ="discount" src={girlGroup} alt="group of 3 girls"/>
                     <div className="email-list">
                         <h2>WANT 15% OFF?</h2>
@@ -36,7 +35,7 @@ class Home extends React.Component {
                             <input type="submit" className="form-control submit" value="Submit"/>
                         </form>
                     </div>
-                    </section>
+                    </section> */}
 
             </main>
             </div>

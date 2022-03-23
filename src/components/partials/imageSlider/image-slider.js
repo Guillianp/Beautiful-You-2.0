@@ -6,29 +6,17 @@ import Slider from "react-slick";
 
 const photos = [
     {
-        alt: "smiling woman looking to the left",
-        image: "../images/eye-for-ebony-3dqSZidOkvs-unsplash.jpg"
+        alt: "white flowers inside glass jar",
+        image: "../images/2.jpg"
     },
     {
-        alt: "woman flipping hair",
-        image: "../images/valerie-elash-vx-PQnfLDDk-unsplash.jpg"
+        alt: "flowers",
+        image: "../images/3.jpg"
     },
     {
-        alt: "woman smiling an dlooking head on",
-        image: "../images/renata-pereira-de-souza-NnzdZwLd8hk-unsplash.jpg"
+        alt: "wild flowers display",
+        image: "../images/4.jpg"
     },
-    {
-        alt: "back of woman's hair",
-        image: "../images/pocky-lee-nbl0AArhRow-unsplash.jpg"
-    },
-    {
-        alt: "smiling woman looking to the right",
-        image: "../images/eye-for-ebony-vYpbBtkDhNE-unsplash.jpg"
-    },
-    {
-        alt: "overhead view of woman looking up",
-        image: "../images/honey-yanibel-minaya-cruz-gm5naIg3Fvo-unsplash.jpg"
-    }
 ]
 
 

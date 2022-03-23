@@ -37,7 +37,7 @@ body {
 .products {
   margin: auto;
   margin-top: 600px;
-  background-image: url(https://pbs.twimg.com/media/Ejt3C15X0AAlpL_?format=jpg&name=large);
+  /* background-image: url("img/featuredproducts.jpg"); */
   min-width: 100%;
   min-height: 750px;
 }
@@ -52,12 +52,12 @@ body {
 
 .products h3 {
   text-align: center;
-  font-size: 8em;
+  font-size: 2em;
   text-transform: uppercase;
   position: relative;
   top: 200px;
   padding-bottom: 30px;
-  color: #854ea2;
+  color: #854ea225;
 }
 
 .productsPage {

@@ -1,115 +1,136 @@
-body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-.wrapper {
-  margin-top: 0;
-}
-.hero {
-  background-image: url(https://pbs.twimg.com/media/EjwmlaAWsAECv7X?format=jpg&name=large);
-  height: 400px;
-  min-width: 100%;
-  background-position: center;
-  background-size: cover;
-  padding: 0px;
-  margin: 0px;
+*{
+  margin:0px;
+  padding:0px;
 }
 
-.hero h2 {
-  font-size: 5em;
-  text-transform: uppercase;
-  position: relative;
-  top: 150px;
-  margin: auto;
-  padding: 10px;
-  text-align: center;
-  color: #854ea2;
-  text-shadow: 4px 3px white;
-}
-.hero div {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  top: 85px;
-  text-align: center;
+/* background image */
+body{
+/* background-image: url("img/contactbackground.jpg"); */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 100vh;
+ max-width: 100vw;
 }
 
-/* -------------------------------Contact Form-------------------------------------- */
-.contact {
-  position: relative;
-  min-width: 100%;
-  margin: auto;
-  text-align: center;
-}
-.contact-form {
-  font-size: 40px;
-  margin: 0px;
+/* Contact information */
+p{
+  color: gray;
+  padding: 6px;
+  margin: 3px; 
 }
 
-.form-name,
-.email,
-.message,
-.submit {
-  width: 600px;
-  background-color: white;
-  border: 1px solid black;
-  outline: none;
-  color: #854ea2;
-  margin-bottom: 10px;
-  font-family: "Poppins", sans-serif;
-}
-
-.phone {
-  width: 600px;
-  background-color: white;
-  border: 1px solid black;
-  outline: none;
+h1{
   color: black;
-  margin-bottom: 30px;
-  font-family: "Poppins", sans-serif;
-}
-input {
-  visibility: visible;
-  height: 30px;
-  font-size: 20px;
-}
-input:focus {
-  outline: none;
-  background-color: #ccc;
-}
-input:invalid,
-textarea:invalid {
-  border: 2px solid #854ea2;
+  text-align: center;
+  font-family: "raleway";
+  font-weight:1px;
+  font-size:36pt;
 }
 
-textarea {
-  visibility: visible;
-  font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
+h2{
+  color: black;
+  text-align: center;
+  font-family: "raleway"; 
+  font-size: 14pt;
 }
 
-label {
-  /* visibility: hidden; */
-  margin: 0;
-  font-size: 0px;
+/* Contact Form */
+
+input[type=text],textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
-form .submit {
-  background-color: #854ea2;
-  border: none;
-  color: white;
+
+#comments{
+height:160px; 
+width: 100%; 
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+  background-color:white;
+  color: #442f2e;
   font-weight: bold;
-  height: 50px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-form .submit:hover {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
-form .submit:active {
-  transform: translateY(4px);
+
+input[type=submit]:hover {
+  background-color: #d3d0d0;
 }
+
+.contact{
+  background-color:#746c6c;
+  opacity: 0.8;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  font-family:"raleway";
+  font-weight: 3px;
+  color:white;
+  border-radius: 30px;
+}
+
+/* Footer   */
+footer{
+display: flex;
+padding: 2vw;
+padding-right: 2.5vw;
+padding-bottom: 1vh;
+margin-top: auto;
+}
+
+aside
+{
+margin-left: auto;
+order: 2;
+}
+
+.social
+{
+color: black;
+padding: 1.5vw;
+text-decoration: none;
+font-size: 2vw;
+}
+
+.social:hover
+{
+opacity: 0.5;
+}
+
+i.fa-circle-thin
+{
+-webkit-text-stroke-color: black;
+-webkit-text-stroke-width:0.01px;
+paint-order: stroke;
+}
+
+.footer1{
+display: flex;
+align-items: center;
+color: black;
+font-family:'raleway' ;
+font-size: 1.5vw;
+font-weight:bolder;
+}
+
 
 @media all and (max-width: 480px) {
   .hero h2 {

@@ -12,32 +12,29 @@ class ProductsPage extends Component {
     filterTypeHandler = e => {
         let value = e.target.value;
         let filteredProducts = null;
-        if (value === "hair-spray") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Hair Spray");
+        if (value === "perfume") {
+            filteredProducts = ProductData.filter((product) => product.productType === "Perfume");
           this.setState({ products: filteredProducts });
-        } else if (value === "shampoo") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Shampoo");
+        } else if (value === "candle") {
+            filteredProducts = ProductData.filter((product) => product.productType === "Candle");
           this.setState({ products: filteredProducts });
-        } else if (value === "serum") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Serum");
+        } else if (value === "bath-table") {
+            filteredProducts = ProductData.filter((product) => product.productType === "Bath Table");
           this.setState({ products: filteredProducts });
-        }else if (value === "conditioner") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Conditioner");
+        }else if (value === "journal") {
+            filteredProducts = ProductData.filter((product) => product.productType === "Journal");
           this.setState({ products: filteredProducts });
-        }else if (value === "mousse") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Mousse");
+        }else if (value === "digital") {
+            filteredProducts = ProductData.filter((product) => product.productType === "Digital");
           this.setState({ products: filteredProducts });
-         }else if (value === "curl-cream") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Curl Cream");
+         }else if (value === "planner") {
+            filteredProducts = ProductData.filter((product) => product.productType === "Planner");
           this.setState({ products: filteredProducts });
-         }else if (value === "gel") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Gel");
+         }else if (value === "notepad") {
+            filteredProducts = ProductData.filter((product) => product.productType === "Notepad");
           this.setState({ products: filteredProducts });
-         }else if (value === "jelly") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Jelly");
-          this.setState({ products: filteredProducts });
-         }else if (value === "wash-n-go") {
-            filteredProducts = ProductData.filter((product) => product.productType === "Wash N Go");
+         }else if (value === "notebook") {
+            filteredProducts = ProductData.filter((product) => product.productType === "Notebook");
           this.setState({ products: filteredProducts });
          }else {
           this.setState({ products: ProductData });
@@ -48,10 +45,10 @@ class ProductsPage extends Component {
         let value = e.target.value;
         let filteredProducts = null;
         if (value === "high") {
-            filteredProducts = ProductData.filter((product) => product.price >= 30.00);
+            filteredProducts = ProductData.filter((product) => product.price >= 50.00);
           this.setState({ products: filteredProducts});
         } else if (value === "medium") {
-            filteredProducts = ProductData.filter((product) => product.price > 15.00 && product.price <30.00);
+            filteredProducts = ProductData.filter((product) => product.price > 10.00 && product.price <50.00);
           this.setState({ products: filteredProducts });
         } else if (value === "low") {
             filteredProducts = ProductData.filter((product) => product.price <= 15.00);
@@ -64,29 +61,28 @@ class ProductsPage extends Component {
     render(){
         return(
             <main>
-                <h1 className="heading">Products</h1>
+                <h1 className="heading">Shop</h1>
                 <div className="productsBorder"></div>
                 <div className="filters">
                     <p><b>Filter By:</b></p>
                     <div className="type-filter">
                         <select id="product-type" onChange={this.filterTypeHandler}>
                             <option value="type">Type</option>
-                            <option value="hair-spray">Hair Spray</option>
-                            <option value="shampoo">Shampoo</option>
-                            <option value="serum">Serum</option>
-                            <option value="conditioner">Conditioner</option>
-                            <option value="mousse">Mousse</option>
-                            <option value="curl-cream">Curl Cream</option>
-                            <option value="gel">Gel</option>
-                            <option value="jelly">Jelly</option>
-                            <option value="wash-n-go">Wash N Go</option>
+                            <option value="perfume">Perfume</option>
+                            <option value="candle">Candle</option>
+                            <option value="bath-table">Bath Table</option>
+                            <option value="journal">Journal</option>
+                            <option value="digital">Digital</option>
+                            <option value="planner">Planner</option>
+                            <option value="notepad">Notepad</option>
+                            <option value="notebook">Notebook</option>
                         </select>
                     </div>
                     <div className="type-filter">
                         <select name="Price Range" onChange={this.filterPriceHandler}>
                             <option value="price">Price</option>
-                            <option value="high"> More Than $30</option>
-                            <option value="medium">$15 - $30</option>
+                            <option value="high"> More Than $50</option>
+                            <option value="medium">$10 - $50</option>
                             <option value="low">Less Than $15</option>
                         </select>
                     </div>
